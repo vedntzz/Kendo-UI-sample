@@ -1,0 +1,138 @@
+
+  .customer-photo {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background-size: 32px 35px;
+      background-position: center center;
+      vertical-align: middle;
+      line-height: 32px;
+      box-shadow: inset 0 0 1px #999, inset 0 0 10px rgba(0,0,0,.2);
+      margin-left: 5px;
+  }
+
+  .customer-name {
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 32px;
+      padding-left: 10px;
+  }
+
+  .red {
+      color: #d9534f;
+  }
+
+  .text-bold {
+      font-weight: 600;
+  }
+  button{
+    appearance: none;
+      background-color: #2ea44f;
+      border: 1px solid rgba(27, 31, 35, .15);
+      border-radius: 6px;
+      box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 20px;
+      padding: 6px 16px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      vertical-align: middle;
+      white-space: nowrap;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+    }
+.table{
+    background: radial-gradient(circle at bottom ,#7cdcdf, #7cdcdf 10%,transparent 10%, transparent 20%, #7cdcdf 20%, #7cdcdf 30%, transparent 30%, transparent 40%, #7cdcdf 40%, #7cdcdf 50%, transparent 50%, transparent 60%, #7cdcdf 60%, #7cdcdf 70%, transparent 70%, transparent 80%, #7cdcdf 80%, #7cdcdf 90%, transparent 90%);
+    background-size: 2em 2em;
+    background-color: #f8fbfd;
+    
+}  
+.headerCustomClass{
+    background-color: #e5e5f7;
+opacity: 0.9;
+background-image: radial-gradient(#82b4d5 0.5px, #e5e5f7 0.5px);
+background-size: 10px 10px;
+}
+.input{
+    background-origin: padding-box;
+    border-radius: 10px;
+}
+::ng-deep .k-toolbar {
+    background: radial-gradient(circle at bottom ,#7cdcdf, #7cdcdf 10%,transparent 10%, transparent 20%, #7cdcdf 20%, #7cdcdf 30%, transparent 30%, transparent 40%, #7cdcdf 40%, #7cdcdf 50%, transparent 50%, transparent 60%, #7cdcdf 60%, #7cdcdf 70%, transparent 70%, transparent 80%, #7cdcdf 80%, #7cdcdf 90%, transparent 90%);
+        background-size: 2em 2em;
+        background-color: #f8fbfd;
+        opacity: 0.8
+}
+::ng-deep .k-grid-md .k-table-th > .k-cell-inner > .k-link {
+    padding-block: 8px;
+    padding-inline: 12px;
+    background: radial-gradient(circle, #7cdcdf 10%, transparent 11%);
+    background-size: 2em 2em;
+    background-color: #f8fbfd;
+    opacity: 0.9;
+        /* opacity: 0.45; */
+    /* opacity: 0.6; */
+    font: message-box;
+    font-weight: 300;
+}
+.header {
+    height: 80px; /* Set header height */
+    display: flex;
+    justify-content: center; /* Center the logo horizontally */
+    align-items: center; /* Center the logo vertically */
+    position: relative; /* Set position to relative for overlaying elements */
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 50% 100%, #7cbedf80 5%, #7cbedf 5% 10%, #7cbedf80 10% 15%, #7cbedf 15% 20%, #7cbedf80 20% 25%, #7cbedf 25% 30%, #7cbedf80 30% 35%, #7cbedf 35% 40%, transparent 40%), radial-gradient(circle at 100% 50%, #7cbedf80 5%, #7cbedf 5% 10%, #7cbedf80 10% 15%, #7cbedf 15% 20%, #7cbedf80 20% 25%, #7cbedf 25% 30%, #7cbedf80 30% 35%, #7cbedf 35% 40%, transparent 40%), radial-gradient(circle at 50% 0%, #7cbedf80 5%, #7cbedf 5% 10%, #7cbedf80 10% 15%, #7cbedf 15% 20%, #7cbedf80 20% 25%, #7cbedf 25% 30%, #7cbedf80 30% 35%, #7cbedf 35% 40%, transparent 40%), radial-gradient(circle at 0 50%, #7cbedf80 5%, #7cbedf 5% 10%, #7cbedf80 10% 15%, #7cbedf 15% 20%, #7cbedf80 20% 25%, #7cbedf 25% 30%, #7cbedf80 30% 35%, #7cbedf 35% 40%, transparent 40%);
+        background-size: 1em 1em;
+        background-color: #ffffff;
+        opacity: 0.45
+}
+
+.logo-container {
+    max-width: 250px; /* Set max width for the logo container */
+    z-index: 1;
+    font-family: 'Courier New', Courier, monospace; /* Set z-index to 1 to position the logo above the background */
+}
+
+.logo {
+    max-width: 100%; /* Make the logo responsive */
+    height: auto;
+}
+::ng-deep .k-grouping-header > .k-grouping-drop-container{
+    background: radial-gradient(circle at bottom ,#7cdcdf, #7cdcdf 10%,transparent 10%, transparent 20%, #7cdcdf 20%, #7cdcdf 30%, transparent 30%, transparent 40%, #7cdcdf 40%, #7cdcdf 50%, transparent 50%, transparent 60%, #7cdcdf 60%, #7cdcdf 70%, transparent 70%, transparent 80%, #7cdcdf 80%, #7cdcdf 90%, transparent 90%);
+        background-size: 2em 2em;
+        background-color: #f8fbfd;
+        opacity: 0.8;
+        font: message-box;
+    font-weight: 300;
+
+     
+
+}
+
+
+
+
+
+  
